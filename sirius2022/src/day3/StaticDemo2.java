@@ -2,6 +2,7 @@ package day3;
 //https://fluvid.com/videos/detail/448axCd4ojhBRDd52#.YjG0wGrElzM.link
 public class StaticDemo2 {
 	public static void main(String[] args) {
+		
 		TrainingRoom t1=new TrainingRoom();
 		TrainingRoom t2=new TrainingRoom();
 		
