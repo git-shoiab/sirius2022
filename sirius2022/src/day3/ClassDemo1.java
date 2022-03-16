@@ -1,6 +1,8 @@
 package day3;
 //https://fluvid.com/videos/detail/VBpQeiejRzhBvrPRR#.YjFmoeRsYyk.link
 //https://fluvid.com/videos/detail/aQadEUd6z5fnPRdwj#.YjFuUQK-IM8.link
+
+
 public class ClassDemo1 {
 	int age=20;//primitive type or simple type
 	String name="ramu";
