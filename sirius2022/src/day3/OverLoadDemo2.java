@@ -4,7 +4,7 @@ public class OverLoadDemo2 {
 	public static void main(String[] args) {
 		Happy911 _911=new Happy911();
 		
-		_911.help(new HeartAttack());
+		_911.help(new Fire());
 	}
 }
 
