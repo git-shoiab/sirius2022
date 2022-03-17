@@ -1,5 +1,5 @@
 package day4;
-
+//https://fluvid.com/videos/detail/XLE5Zc8ZvXS6GdxGk#.YjLIjhmXyFw.link
 public class InherDemo3 {
 	public static void main(String[] args) {
 		

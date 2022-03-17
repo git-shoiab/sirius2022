@@ -1,4 +1,5 @@
 package day4;
+//https://fluvid.com/videos/detail/XLE5Zc8ZrRF6GdeZ1#.YjK7PWnEaGA.link
 //OBJECT REUSABILITY
 public class InherDemo {
 	public static void main(String[] args) {
