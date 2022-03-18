@@ -1,7 +1,20 @@
 package day5;
+
+import malik.MoleculeFramework;
+
 //https://fluvid.com/videos/detail/zj4k_T7o54tgjQQ8B#.YjRXmeVA3gY.link
 public class InterfaceDemo {
-
+	public static void main(String[] args) {
+		AlopathyMedicalCollege stanley=new AlopathyMedicalCollege();
+		
+		Human shoiab=new Human();
+		
+		MoleculeFramework.setInterface(Doctor.class);
+		
+		Doctor doctorShoiab=(Doctor)MoleculeFramework.getObject(new Object[] {stanley,shoiab});
+		
+		doctorShoiab.doCure();
+	}
 }
 class Human{
 	
