@@ -44,10 +44,10 @@ public class FunctionalInterfaceDemo {
 		String result=myf3.met("sirius", 1000);
 		System.out.println(result);
 		
-		MyFunctional myff=new FunctionalInterfaceDemo()::myMet;
+		MyFunctional myff=new FunctionalInterfaceDemo()::myMet;//instance method referencing
 		myff.met();
 		
-		MyFunctional myfff=FunctionalInterfaceDemo::myMet2;
+		MyFunctional myfff=FunctionalInterfaceDemo::myMet2;//static method referencing
 		myfff.met();
 		
 	}
