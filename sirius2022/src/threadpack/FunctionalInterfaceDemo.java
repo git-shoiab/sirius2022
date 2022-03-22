@@ -1,5 +1,6 @@
 package threadpack;
 //https://fluvid.com/videos/detail/-KRkYhG-YdsEznnwa#.YjmcprJPFLA.link
+//https://fluvid.com/videos/detail/7Bk-3i2RLkfdagnjm#.Yjmi8TOZO8k.link
 public class FunctionalInterfaceDemo {
 	public static void main(String[] args) {
 		new MyFunctional() {			
@@ -42,6 +43,20 @@ public class FunctionalInterfaceDemo {
 		myf2.met(100);
 		String result=myf3.met("sirius", 1000);
 		System.out.println(result);
+		
+		MyFunctional myff=new FunctionalInterfaceDemo()::myMet;
+		myff.met();
+		
+		MyFunctional myfff=FunctionalInterfaceDemo::myMet2;
+		myfff.met();
+		
+	}
+	
+	void myMet() {
+		System.out.println("this is reusable logic...");
+	}
+	static void myMet2() {
+		System.out.println("static reusable logic....");
 	}
 }
 @FunctionalInterface
