@@ -9,7 +9,10 @@ public class Server {
 		try {
 			ss=new ServerSocket(2000);
 			System.out.println("Server Ready...");
-			s=ss.accept();
+			while(true) {
+				s=ss.accept();
+				System.out.println(s);
+			}
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
