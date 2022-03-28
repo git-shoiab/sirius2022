@@ -2,7 +2,7 @@ package iopack;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+//https://fluvid.com/videos/detail/ykZL6ckXDLhY9XAVo#.YkFdphu2IlQ.link
 public class TwoThreadsControlObjectDemo {
 	public static void main(String[] args) {
 		ReservationCounter central=new ReservationCounter();
@@ -11,14 +11,18 @@ public class TwoThreadsControlObjectDemo {
 		
 		es.execute(()->{
 			Thread.currentThread().setName("somu");
+			synchronized(central) {
 			central.bookTicket(1000);
 			central.giveChange();
+			}
 		});
 		
 		es.execute(()->{
 			Thread.currentThread().setName("ramu");
+			synchronized(central) {
 			central.bookTicket(500);
 			central.giveChange();
+			}
 		});
 		es.shutdown();
 	}
