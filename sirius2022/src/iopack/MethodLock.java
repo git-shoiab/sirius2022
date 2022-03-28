@@ -60,3 +60,4 @@ class RationShop{
 		System.out.println(name+".. comes out of drinking water...");
 	}
 }
+
