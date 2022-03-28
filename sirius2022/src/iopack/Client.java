@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-
+//https://fluvid.com/videos/detail/P5OY2TPkxMFgre-v_#.YkE7rJEHSn8.link
 public class Client {
 	Socket s;BufferedReader in,keyin;PrintWriter out;
 	public Client() {

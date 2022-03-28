@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-
+//https://fluvid.com/videos/detail/P5OY2TPkxMFgre-v_#.YkE7rJEHSn8.link
 public class Server {
 	ServerSocket ss;Socket s;
 	PrintWriter out;BufferedReader in,socketin;
