@@ -12,11 +12,7 @@ public String execute(HttpServletRequest request, HttpServletResponse response) 
 	String uname=request.getParameter("uname");
 	String upass=request.getParameter("upass");
 	
-	if(uname.equals("ramu")) {
-		return "login.success";
-	}
-	else {
-		return "login.failure";
-	}
+	return null;
+	
 }
 }
