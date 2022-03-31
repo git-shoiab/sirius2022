@@ -8,5 +8,10 @@
 </head>
 <body>
 	<h1>Welcome page...</h1>
+	<form action="shooping.do" method="post">
+		<input type="hidden" name="formid" value="shopping">
+		<input type="hidden" name="shopid" value="shop1">
+		<input type="submit" value="Go Shopping>>>>">
+	</form>
 </body>
 </html>
