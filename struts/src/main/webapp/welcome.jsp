@@ -6,6 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<%@ include file="logout.jsp" %>
 <body>
 	<h1>Welcome page...</h1>
 	<form action="shooping.do" method="post">
