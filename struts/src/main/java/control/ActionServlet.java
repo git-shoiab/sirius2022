@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class ActionServlet
@@ -22,6 +23,7 @@ public class ActionServlet extends HttpServlet {
 	@Override
 	public void init(ServletConfig config) throws ServletException {
 		rp=new RequestProcessor();
+		
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -30,6 +32,8 @@ public class ActionServlet extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HttpSession session=request.getSession();
+		session.setMaxInactiveInterval(60);
 		rp.process(request, response);
 	}
 
