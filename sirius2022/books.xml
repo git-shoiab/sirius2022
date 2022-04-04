@@ -1,0 +1,19 @@
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+	<book bid="a1">
+		<name>Grameen Bank</name>
+		<author>Younus</author>
+		<prize>340</prize>
+	</book>	
+	<book bid="a2">
+		<name>XML</name>
+		<author>Macmel</author>
+		<prize>140</prize>
+	</book>
+	<book bid="a3">
+		<name>Java</name>
+		<author>James Gosling</author>
+		<prize>540</prize>
+	</book>
+</books>
+

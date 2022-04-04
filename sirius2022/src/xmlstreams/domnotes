@@ -1,0 +1,32 @@
+Document Object Model - DOM
+Document - interface
+	documentElement - node - root node
+	createElement - node
+	createTEXTNode - node
+	createAttribute - node
+	createComment - node
+	
+Node - interface
+	nodeName - string
+	nodeValue - string
+	nodeType - int
+	childNodes - nodelist
+	firstChild - node
+	lastChild - node
+	nextSibling - node
+	previousSibling - node
+	attributes - namenodemap
+	appendChild(n) - node
+	insertBefore(n,n) - node
+	getElementsByTagName(n) - nodelist
+	cloneNode(n)
+	removeNode(n)
+	
+NodeList
+	length()-int
+	item(i)-node
+NameNodeMap
+	length() - int
+	getNamedItem()-node
+	setNamedItem()-node
+	removeNamedItem()-void
