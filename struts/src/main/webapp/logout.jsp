@@ -8,7 +8,7 @@
 </head>
 <body>
 <hr>
-	<form action="logout.do" method="post">
+	<form action="logout.do;jsessionid=<%=session.getId() %>" method="post">
 	<input type="hidden" name="formid" value="logout">
 		<input type="submit" value="logout">
 	</form>
